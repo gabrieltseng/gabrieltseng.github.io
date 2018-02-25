@@ -16,7 +16,7 @@
 title: Gabriel Tseng
 email: gabrieltseng95@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Gabi's personal website
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "gabrieltseng.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  GabrielTseng
@@ -24,6 +24,7 @@ linkedin_username: gabrieltseng
 
 # Build settings
 markdown: kramdown
+mathjax: true
 theme: minima
 plugins:
   - jekyll-feed
