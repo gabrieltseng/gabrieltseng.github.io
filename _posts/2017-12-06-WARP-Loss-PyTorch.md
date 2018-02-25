@@ -130,7 +130,20 @@ PyTorch treats losses as an additional layer of the neural network, so that when
 an `nn.Module` class (the same class as any layer in PyTorch’s neural networks). `nn.Module` classes consists of a constructor 
 ( `__init__` ), and a single (required) method: `forward()`, which describes the operations to execute on the Variables.
 
-![WARP_4](../../../assets/img/2017-12-06/WARP_4.png "WARP_4")
+```python
+import torch.nn as nn
+import torch.nn.functional as F
+
+class Model(nn.Model):
+    def __init__(self):
+        super(Model, self).__init__()
+        self.conv1 = nn.Conv2d(1, 20, 5)
+        self.conv2 = nn.Conv2d(20, 20, 5)
+        
+    def forward(self, x):
+        x = F.relu(self, conv1(x))
+        return F.relu(self.conv2(x))
+```
 
 This is sufficient to write a loss function; using automatic differentiation, PyTorch can calculate the gradients of the 
 Variables as a result of the `forward()` method for free, allowing backpropagation to occur. However, you can go a step 
@@ -145,7 +158,44 @@ using `nn.Module`).
 It helped me a lot to work through a very simple example — the [Linear function](http://pytorch.org/docs/master/notes/extending.html) 
 used as an example in the PyTorch docs — before implementing a WARP function, so I’ll do the same here.
 
-![WARP_5](../../../assets/img/2017-12-06/WARP_5.png "WARP_5")
+```python
+# Inherit from Function
+class LinearFunction(Function):
+
+    # Note that both forward and backward are @staticmethods
+    @staticmethod
+    # bias is an optional argument
+    def forward(ctx, input, weight, bias=None):
+        ctx.save_for_backward(input, weight, bias)
+        output = input.mm(weight.t())
+        if bias is not None:
+            output += bias.unsqueeze(0).expand_as(output)
+        return output
+
+    # This function has only a single output, so it gets only one gradient
+    @staticmethod
+    def backward(ctx, grad_output):
+        # This is a pattern that is very convenient - at the top of backward
+        # unpack saved_tensors and initialize all gradients w.r.t. inputs to
+        # None. Thanks to the fact that additional trailing Nones are
+        # ignored, the return statement is simple even when the function has
+        # optional inputs.
+        input, weight, bias = ctx.saved_variables
+        grad_input = grad_weight = grad_bias = None
+
+        # These needs_input_grad checks are optional and there only to
+        # improve efficiency. If you want to make your code simpler, you can
+        # skip them. Returning gradients for inputs that don't require it is
+        # not an error.
+        if ctx.needs_input_grad[0]:
+            grad_input = grad_output.mm(weight)
+        if ctx.needs_input_grad[1]:
+            grad_weight = grad_output.t().mm(input)
+        if bias is not None and ctx.needs_input_grad[2]:
+            grad_bias = grad_output.sum(0).squeeze(0)
+
+        return grad_input, grad_weight, grad_bias
+```
 
 This function has three inputs, and returns a single output; it’s a very straightforward transformation:
 
