@@ -296,7 +296,7 @@ sees — each with unique (‘randomly chosen’) samples, and weights (the 
 
 In this case, applying the same notation as for the linear function,
 
-\\[ Y = F(X) = L(\textrm{margin) - X^{-} - X^{+}\\]
+\\[ Y = F(X) = L( \textrm{margin} - X^{-} - X^{+} )\\]
 
 where
 
