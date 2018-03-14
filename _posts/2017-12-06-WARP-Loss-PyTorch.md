@@ -289,7 +289,7 @@ Note that the margin here is 1. The positive_indices and negative_indices matric
 
 The `backward()` method needs to return `grad_input`, the gradient with respect to the input matrix, \\(\frac{\partial F}{ \partial X} \\).
 
-Since random sampling is a non-differentiable operation, the rank multiplier \\(ln(\frac{X-1}{N} \\) is considered constant for 
+Since random sampling is a non-differentiable operation, the rank multiplier \\(ln(\frac{X-1}{N}) \\) is considered constant for 
 the purpose of differentiation. The way I approach this is to imagine that WARP is simply a sampling technique which 
 defines the loss function, and therefore a unique loss function is created for every training example the recommender 
 sees — each with unique (‘randomly chosen’) samples, and weights (the rank multiplier).
