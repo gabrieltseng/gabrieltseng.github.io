@@ -110,7 +110,7 @@ as painted by Huang Gongwang.
 
 ### Incorporating Long Ranged Consistency
 
-The gram matrix of X is the dot product of itself to its transpose: $X \cdot (X^{T})$. This compares each element of X 
+The gram matrix of X is the dot product of itself to its transpose: \\( X \cdot X^{T}\\). This compares each element of X 
 to itself, and is good at getting a global understanding of what is going on in the image.
 
 However, this fails to capture local structure within an image. A way to compare local structure would be to compare 
