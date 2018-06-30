@@ -165,7 +165,7 @@ biosphere.
 
 ### Takeaways
 
-1.Leave the network alone! When generating the last image, I had a tendency to ‘micromanage’ my network, and change the 
+1. Leave the network alone! When generating the last image, I had a tendency to ‘micromanage’ my network, and change the 
 parameters as soon as the loss stopped decreasing. Just letting the network run yielded the best results, as it tended 
 to get out of those ruts.
 
