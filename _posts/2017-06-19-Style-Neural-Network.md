@@ -28,7 +28,7 @@ I’m going to explore Style Neural Networks, and catch up with other developmen
 style transfer based on image iteration since [Gatys’ 2014 paper](https://arxiv.org/abs/1508.06576), which first 
 introduced the idea.
 
-The code which accompanies this post can be found [here](https://github.com/GabrielTseng/LearningDataScience/tree/master/Style_Neural_Network)
+The code which accompanies this post can be found [here](https://github.com/GabrielTseng/LearningDataScience/tree/master/computer_vision/style_neural_network)
 
 #### Contents
 
