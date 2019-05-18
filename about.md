@@ -5,17 +5,22 @@ permalink: /about/
 ---
 ![about_photo](../assets/img/about.jpg "Taiwan")
 
-Hello! My name is Gabi. I enjoy applying data science research to solve difficult and relevant problems. I am particularly interested machine
-learning, specifically: making machine learning algorithms easier to understand and therefore easier to use, learning from sequential data 
-(including natural language processing) and generalizing algorithms.
+Hello! My name is Gabi. I enjoy applying machine learning to solve difficult and relevant problems.
+I am interested in solving sustainability challenges, specifically to better understand, mitigate and adapt
+to the effects of climate change.
 
-I currently work as a machine learning engineer at [Drop](http://b.ewd.io/uxuze). Until it was acquired by Drop, I worked at 
-[Canopy Labs](https://canopylabs.com/), where I explored applications of machine learning to customer analytics. Before that, I was part of 
-[Professor Natalya Gomez](http://www.natalyagomez.com/)'s research group, where I studied the influence of the Northern Hemisphere Ice Sheet
-on the Antarctic Ice Sheet, specifically in the context of Antarctic Ice Discharge events. This work was presented at 
-[Polar2018](https://www.polar2018.org/).
+I am currently working with [Tommy Lees](https://tommylees112.github.io/) to predict drought in East Africa, as part of
+the European Center for Medium Range Weather Forecasting's [Summer of Weather Code](https://www.ecmwf.int/en/learning/workshops/ecmwf-summer-weather-code-2019)
+program.
+
+Before this, I explored the applications of machine learning to customer analytics, as a machine learning engineer at
+[Drop](http://b.ewd.io/uxuze) and as a data scientist at [Canopy Labs](https://canopylabs.com/).
 
 
-As a result of my work (and my own projects, some of which can be found 
-[in this repository](https://github.com/gabrieltseng/datascience-projects)), I learn new things all the time and hope to share some of 
-that here.
+Whilst studying Physics in McGill University, I worked in [Professor Natalya Gomez](http://www.natalyagomez.com/)'s 
+research group, where I studied the influence of the Northern Hemisphere Ice Sheet on the Antarctic Ice Sheet, 
+specifically in the context of Antarctic Ice Discharge events. This work was presented at [Polar2018](https://www.polar2018.org/).
+
+
+As a result of my work (and my own projects, some of which can be found  [on my github](https://github.com/gabrieltseng)), 
+I learn new things all the time and hope to share some of that here.
