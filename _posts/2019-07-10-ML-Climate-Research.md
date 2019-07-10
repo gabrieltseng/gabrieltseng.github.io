@@ -28,7 +28,7 @@ The result consists of 5 steps, which I’ll discuss in more detail:
 
 The pipeline is split into 2 “halves”, each of which tackle a specific type of extensibility:
 
-At the front end of the pipeline, we focussed on **data extensibility**; making it easy to incorporate new data sources.
+At the front end of the pipeline, we focused on **data extensibility**; making it easy to incorporate new data sources.
 
 This is achieved by the exporters and the preprocessors: the [exporters](https://github.com/esowc/ml_drought/tree/master/src/exporters) 
 handle interactions with data stores, and have to be customized for each unique store (e.g. talking to a specific API, or to an FTP). 
@@ -41,7 +41,7 @@ Ensuring all the data has the same format means that future steps are decoupled 
 data sources to be added with the addition of only two classes: an exporter and a preprocessor. Nothing downstream needs 
 to be changed for that new data to be included in experiments.
 
-The back end of the pipeline focusses on **experimental extensibility** (for instance, experimenting with different 
+The back end of the pipeline focuses on **experimental extensibility** (for instance, experimenting with different 
 machine learning algorithms). The biggest challenge here was balancing ease of use with flexibility.
 
 Using experiments with different machine learning algorithms as an example, we imposed some constraints on different 
@@ -53,9 +53,9 @@ model from accidentally introducing leakage.
 this may not be optimal for all models (e.g. RNNs might prefer to predict on a rolling basis) it makes it much easier 
 to alternate between models for experiments.
 
-However, the training and testing data is stored in NetCDF format to maximize the amount of information available to 
-the models (and therefore the type of models which can be implemented) by ensuring the spatial and temporal grids 
-associated with the data can still be accessed.
+However, the training and testing data is stored in [NetCDF](https://www.unidata.ucar.edu/software/netcdf/) format to 
+maximize the amount of information available to the models (and therefore the type of models which can be implemented) 
+by ensuring the spatial and temporal grids associated with the data can still be accessed.
 
 ## Robustness
 
@@ -86,7 +86,7 @@ The baseline we currently use is a [persistence model](https://github.com/esowc/
 which predicts the previous month of data (e.g. we predict vegetation health in June to be the vegetation health in May). 
 This gives us a good idea of how the models should be performing.
 
-In addition, we have focussed on leveraging interpretable machine learning techniques to analyze what the models are 
+In addition, we have focused on leveraging interpretable machine learning techniques to analyze what the models are 
 learning. This allows us to ensure the patterns being learnt by the models make sense (e.g. data from timesteps 
 close to the predictand timestep should be more important to the model’s prediction), and also to better understand 
 the relationship between the input variables and the target variable.
