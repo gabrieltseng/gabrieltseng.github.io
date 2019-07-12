@@ -4,15 +4,19 @@ title:  "A Machine Learning Pipeline for Climate Research"
 date:   2019-07-10 10:17:15 -0500
 ---
 
+![VHI](../../../assets/img/2019-07-10/vhi_cropped.png "VHI")
+
 Over the last few weeks, I have been working with [Tommy Lees](https://tommylees112.github.io/) to develop a 
 machine learning pipeline to predict drought, as part of the ECMWF’s 
 [Summer of Weather Code program](https://www.ecmwf.int/en/learning/workshops/ecmwf-summer-weather-code-2019).
 
 As we developed the pipeline, there were a few requirements we wanted to satisfy. The pipeline has to:
 
-- Be easily extensible (to both new features and new data sources)
-- Be robust, and thoroughly tested
-- Be easy to validate and analyze
+- **Be easily extensible** (to both new features and new data sources), to allow us to experiment with many different 
+ways of predicting drought, since there is no accepted approach.
+- **Be robust, and thoroughly tested**, so that we can be confident the pipeline is doing what we expect.
+- **Be easy to validate and analyze**, so that we can assess the performance of our models and understand what 
+patterns they are learning.
 
 The result consists of 5 steps, which I’ll discuss in more detail:
 
@@ -28,7 +32,8 @@ The result consists of 5 steps, which I’ll discuss in more detail:
 
 The pipeline is split into 2 “halves”, each of which tackle a specific type of extensibility:
 
-At the front end of the pipeline, we focused on **data extensibility**; making it easy to incorporate new data sources.
+####  Data extensibility
+At the front end of the pipeline, we focused on data extensibility; making it easy to incorporate new data sources.
 
 This is achieved by the exporters and the preprocessors: the [exporters](https://github.com/esowc/ml_drought/tree/master/src/exporters) 
 handle interactions with data stores, and have to be customized for each unique store (e.g. talking to a specific API, or to an FTP). 
@@ -41,7 +46,8 @@ Ensuring all the data has the same format means that future steps are decoupled 
 data sources to be added with the addition of only two classes: an exporter and a preprocessor. Nothing downstream needs 
 to be changed for that new data to be included in experiments.
 
-The back end of the pipeline focuses on **experimental extensibility** (for instance, experimenting with different 
+#### Experimental extensibility
+The back end of the pipeline focuses on experimental extensibility (for instance, experimenting with different 
 machine learning algorithms). The biggest challenge here was balancing ease of use with flexibility.
 
 Using experiments with different machine learning algorithms as an example, we imposed some constraints on different 
@@ -53,7 +59,7 @@ model from accidentally introducing leakage.
 this may not be optimal for all models (e.g. RNNs might prefer to predict on a rolling basis) it makes it much easier 
 to alternate between models for experiments.
 
-However, the training and testing data is stored in [NetCDF](https://www.unidata.ucar.edu/software/netcdf/) format to 
+The training and testing data is stored in [NetCDF](https://www.unidata.ucar.edu/software/netcdf/) format to 
 maximize the amount of information available to the models (and therefore the type of models which can be implemented) 
 by ensuring the spatial and temporal grids associated with the data can still be accessed.
 
@@ -83,12 +89,12 @@ useful because - unlike some other applications of machine learning - there aren
 machine learning applied to climate sciences.
 
 The baseline we currently use is a [persistence model](https://github.com/esowc/ml_drought/blob/master/src/models/parsimonious.py#L9), 
-which predicts the previous month of data (e.g. we predict vegetation health in June to be the vegetation health in May). 
-This gives us a good idea of how the models should be performing.
+which predicts the vegetation health in month N to be vegetation health in month N - 1 (e.g. we predict vegetation 
+health in June to be identical to vegetation health in May). This gives us a good idea of how the models should be performing.
 
 In addition, we have focused on leveraging interpretable machine learning techniques to analyze what the models are 
-learning. This allows us to ensure the patterns being learnt by the models make sense (e.g. data from timesteps 
-close to the predictand timestep should be more important to the model’s prediction), and also to better understand 
+learning. This allows us to ensure the patterns being learnt by the models make sense (e.g. data from months close to 
+the month being predicted should be more important to the model's prediction), and also to better understand 
 the relationship between the input variables and the target variable.
 
 ## Conclusion
