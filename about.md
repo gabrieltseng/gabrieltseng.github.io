@@ -23,4 +23,4 @@ specifically in the context of Antarctic Ice Discharge events. This work was pre
 As a result of my work (and my own projects, some of which can be found  [on my github](https://github.com/gabrieltseng)), 
 I learn new things all the time and hope to share some of that here.
 
-I also have a non technical blog, at [oolongaloha.com](oolongaloha.com).
+I also have a non technical blog, at [oolongaloha.com](http://oolongaloha.com)
