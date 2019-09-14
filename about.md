@@ -1,13 +1,16 @@
 ---
 layout: page
-title: About me
+title: About
 permalink: /about/
 ---
 
 I am currently a Machine Learning Engineer at [Okra Solar](https://okrasolar.com/), exploring the applications of machine 
-learning to smart solar microgrids. I am also working with [Tommy Lees](https://tommylees112.github.io/) to 
-[predict drought](https://github.com/esowc/ml_drought)  in East Africa, as part of the 
-European Center for Medium Range Weather Forecasting's 
-[Summer of Weather Code](https://www.ecmwf.int/en/learning/workshops/ecmwf-summer-weather-code-2019) program.
+learning to smart solar microgrids.
 
-I also have a non technical blog, at [oolongaloha.com](http://oolongaloha.com)
+I am interested in / have been lucky to contribute to:
+* **Technology for good**, such as to [better understand natural hazards](https://github.com/esowc/ml_drought), or to
+[increase energy accessibility](https://okrasolar.com/)
+* **Interpretable machine learning** using [open source tools](https://github.com/slundberg/shap)
+* **Rock climbing** (and visiting [beautiful places](https://i2.wp.com/oolongaloha.com/wp-content/uploads/2019/08/IMG_4514.png?w=2280&ssl=1) to climb there)
+
+In addition to the technical blog [here](/blog) also have a non technical blog, at [oolongaloha.com](http://oolongaloha.com)
