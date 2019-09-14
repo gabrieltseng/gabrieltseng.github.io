@@ -1,21 +1,20 @@
 ---
 layout: page
-title: About me
+title: About
 permalink: /about/
 ---
-![about_photo](../assets/img/about.jpg "Taiwan")
-
-Hello! My name is Gabi. I enjoy applying machine learning to solve difficult and relevant problems.
-I am interested in solving sustainability challenges, particularly to better understand, mitigate and adapt
-to the effects of climate change.
 
 I am currently a Machine Learning Engineer at [Okra Solar](https://okrasolar.com/), exploring the applications of machine 
-learning to smart solar microgrids. I am also working with [Tommy Lees](https://tommylees112.github.io/) to 
-[predict drought](https://github.com/esowc/ml_drought)  in East Africa, as part of the 
-European Center for Medium Range Weather Forecasting's 
-[Summer of Weather Code](https://www.ecmwf.int/en/learning/workshops/ecmwf-summer-weather-code-2019) program.
+learning to smart solar microgrids.
 
-As a result of my work (and my own projects, some of which can be found  [on my github](https://github.com/gabrieltseng)), 
-I learn new things all the time and hope to share some of that here.
+I am interested in / have been lucky to contribute to:
+* **Technology for good**, such as to [better understand natural hazards](https://github.com/esowc/ml_drought), or to
+[increase energy accessibility](https://okrasolar.com/)
+* **Interpretable machine learning** using [open source tools](https://github.com/slundberg/shap)
+* **Rock climbing**<sup>[1](#note)</sup> (and visiting [beautiful places](https://i2.wp.com/oolongaloha.com/wp-content/uploads/2019/08/IMG_4514.png?w=2280&ssl=1) to climb there)
 
-I also have a non technical blog, at [oolongaloha.com](http://oolongaloha.com)
+In addition to the technical blog [here](/blog), I also have a non technical blog, at [oolongaloha.com](http://oolongaloha.com)
+
+<small><small>
+<a name="note">1</a>: I am interested in rock climbing; I don't contribute much aside from being an enthusiastic participant
+</small></small>
