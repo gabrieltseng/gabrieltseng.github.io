@@ -4,8 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am currently a Machine Learning Engineer at [Okra Solar](https://okrasolar.com/), exploring the applications of machine 
-learning to smart solar microgrids.
+I am currently a Machine Learning Engineer at [Okra Solar](https://okrasolar.com/), exploring the applications of machine learning to smart solar microgrids.
 
 I am interested in / have been lucky to contribute to:
 * **Technology for good**, such as to [better understand natural hazards](https://github.com/esowc/ml_drought), or to
