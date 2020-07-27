@@ -12,6 +12,7 @@ Hannah Kerner*, **Gabriel Tseng**\*, Inbal Becker-Reshef, Catherine Nakalembe, B
 
 \[[arxiv](https://arxiv.org/abs/2006.16866)\]
 \[[pdf](../assets/pubs/crop_mapping.pdf)\]
+\[[code](https://github.com/nasaharvest/togo-crop-mask)\]
 
 ---
 #### A Machine Learning Pipeline to Predict Vegetation Health
@@ -22,5 +23,6 @@ Thomas Lees*, **Gabriel Tseng**\*, Simon Dadson, Alex Hernández, Clement G. Atz
 
 \[[talk](https://www.climatechange.ai/papers/iclr2020/4#recording)\]
 \[[pdf](../assets/pubs/drought_prediction.pdf)\]
+\[[code](https://github.com/ml-clim/drought-prediction)\]
 
 (\* denotes equal contributions)
