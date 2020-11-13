@@ -4,6 +4,16 @@ title: Publications
 permalink: /publications/
 ---
 
+#### Annual and In-Season Mapping of Cropland at Field Scale with Sparse Labels
+
+**Gabriel Tseng**\*, Hannah Kerner*, Catherine Nakalembe, Inbal Becker-Reshef
+
+[Climate Change and AI Workshop](https://www.climatechange.ai/events/neurips2020) at NeurIPS 2020
+
+\[[pdf](../assets/pubs/kenya_crop_mapping.pdf)\]
+\[[code](https://github.com/nasaharvest/kenya-crop-mask)\]
+
+---
 #### Rapid Response Crop Maps in Data Sparse Regions
 
 Hannah Kerner*, **Gabriel Tseng**\*, Inbal Becker-Reshef, Catherine Nakalembe, Brian Barker, Blake Munshell, Madhava Paliyam, Mehdi Hosseini
