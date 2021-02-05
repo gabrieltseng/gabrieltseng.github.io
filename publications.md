@@ -10,6 +10,7 @@ permalink: /publications/
 
 [Climate Change and AI Workshop](https://www.climatechange.ai/events/neurips2020) at NeurIPS 2020
 
+\[[talk](https://www.climatechange.ai/papers/neurips2020/29)\]
 \[[pdf](../assets/pubs/kenya_crop_mapping.pdf)\]
 \[[code](https://github.com/nasaharvest/kenya-crop-mask)\]
 
