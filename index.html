@@ -1,18 +1,38 @@
 ---
-layout: default
+layout: main
+title: Home
 ---
-
-
-<div id="image-container" class="noselect">
-  <img id="primary-mainimg" class="main-image" src="assets/img/about.jpg"></img>
+<div class="columns is-7 is-variable">
+  <div class="column is-two-thirds content">
+    <div class="columns is-7 is-variable is-vcentered">
+      <div class="column is-one-third content">
+        <figure class="image">
+          <img src="/assets/img/profile_cropped.png">
+        </figure>
+      </div>
+      <div class="column">
+        <h1>{{ site.title }}</h1>
+        {% capture description %}{% include description.md %}{% endcapture %}
+        {{ description | markdownify }}
+        <h2>Email</h2>
+        <p>{{ site.email }}</p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="has-text-centered content">
+      <h2>News</h2>
+    </div>
+      {% assign news = site.news | sort: 'date' | reverse %}
+      {% for entry in news limit:3 %}
+        <div class="has-text-centered content">
+          <h4><a href="{{ entry.url }}">{{ entry.date | date_to_string }} - {{ entry.title }}</a></h4>
+        </div>
+        <div class="has-text-left content">
+          <p>{{ entry.excerpt | markdownify }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
 </div>
 
-<div id="main-text">
-  <p>
-    Hello! My name is Gabi. I enjoy applying machine learning to solve difficult and relevant problems.</p>
-  <p>
-    I am interested in solving sustainability challenges, particularly to better understand, mitigate and adapt
-    to the effects of climate change. </p>
-</div>
-
-<link rel="stylesheet" href="assets/css/index.css">
