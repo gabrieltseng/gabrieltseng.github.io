@@ -4,7 +4,7 @@ title: Blog
 permalink: /blog
 ---
 
-{% assign posts = site.posts | sort: 'order' | reverse %}
+{% assign posts = site.posts | sort: 'date' | reverse %}
 {% for post in posts %}
   {% include post-summary.html %}
 {% endfor %}
