@@ -1,0 +1,50 @@
+- title: "Annual and In-Season Mapping of Cropland at Field Scale with Sparse Labels"
+  authors:
+    - Gabriel Tseng
+    - Hannah Kerner
+    - Catherine Nakalembe
+    - Inbal Becker-Reshef
+  year: 2020
+  journal: Neural Information Processing Systems (NeurIPS), Workshop on Tackling climate change with machine learning
+  tags:
+    - tag: PDF
+      link: https://www.climatechange.ai/papers/neurips2020/29/paper.pdf
+    - tag: talk
+      link: https://www.climatechange.ai/papers/neurips2020/29
+    - tag: code
+      link: https://github.com/nasaharvest/kenya-crop-mask
+- title: "Rapid Response Crop Maps in Data Sparse Regions"
+  authors:
+    - Gabriel Tseng
+    - Hannah Kerner
+    - Inbal Becker-Reshef
+    - Catherine Nakalembe
+    - Brian Barker
+    - Blake Munshell
+    - Madhava Paliyam
+    - Mehdi Hosseini
+  year: 2020
+  journal: Knowledge Discovery and Data (KDD), Workshop on Humanitarian Mapping
+  tags:
+    - tag: arxiv
+      link: https://arxiv.org/abs/2006.16866
+    - tag: code
+      link: https://github.com/nasaharvest/togo-crop-mask
+- title: A machine learning pipeline to predict vegetation health
+  authors:
+    - Thomas Lees
+    - Gabriel Tseng
+    - Alex Hernandez-Garcia
+    - Clement Atzberger
+    - Simon Dadson
+    - Steven Reece
+  year: 2020
+  journal: International Conference on Learning Representations (ICLR), Workshop on Tackling climate change with machine learning
+  tags:
+    - tag: PDF
+      link: https://www.climatechange.ai/papers/iclr2020/4/paper.pdf
+    - tag: talk
+      link: https://www.climatechange.ai/papers/iclr2020/4
+    - tag: code
+      link: https://github.com/ml-clim/drought-prediction
+  misc: Spotlight

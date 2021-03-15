@@ -1,0 +1,8 @@
+- name: About me
+  link: /about.html
+- name: Publications
+  link: /publications.html
+- name: Blog
+  link: /blog.html
+- name: News
+  link: /news.html
