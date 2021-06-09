@@ -1,3 +1,14 @@
+- title: "Learning to predict crop type from heterogeneous sparse labels using meta-learning"
+  authors:
+    - Gabriel Tseng
+    - Hannah Kerner
+    - Catherine Nakalembe
+    - Inbal Becker-Reshef
+  year: 2021
+  journal: Computer Vision and Pattern Recognition (CVPR), EarthVision workshop
+  tags:
+    - tag: code
+      link: https://github.com/nasaharvest/crop-maml
 - title: "Annual and In-Season Mapping of Cropland at Field Scale with Sparse Labels"
   authors:
     - Gabriel Tseng
@@ -15,8 +26,8 @@
       link: https://github.com/nasaharvest/kenya-crop-mask
 - title: "Rapid Response Crop Maps in Data Sparse Regions"
   authors:
-    - Gabriel Tseng
     - Hannah Kerner
+    - Gabriel Tseng
     - Inbal Becker-Reshef
     - Catherine Nakalembe
     - Brian Barker
