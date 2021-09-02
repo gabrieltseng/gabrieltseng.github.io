@@ -1,8 +1,8 @@
-I am currently a Machine Learning Engineer at [Okra Solar](https://okrasolar.com/), exploring the applications of machine learning to smart solar microgrids. I also work with [NASA Harvest](https://nasaharvest.com/), using remote sensing to estimate which crops are being grown where.
+I am a master's student at [McGill](https://www.mcgill.ca/) / [Mila](https://mila.quebec/), working under the supervision of Professor [David Rolnick](www.davidrolnick.com/) to investigate ways in which machine learning can help fight climate change. This includes working with [NASA Harvest](https://nasaharvest.com/), using remote sensing to estimate which crops are being grown where.
 
 I am interested in / have been lucky to contribute to:
 * **Technology for good**, such as to [better understand natural hazards](https://github.com/esowc/ml_drought), or to
-[increase energy accessibility](https://okrasolar.com/)
+[increase energy access](https://okrasolar.com/)
 * **Interpretable machine learning** using [open source tools](https://github.com/slundberg/shap)
 * **Rock climbing**<sup>[1](#note)</sup> (and visiting [beautiful places](https://i2.wp.com/oolongaloha.com/wp-content/uploads/2019/08/IMG_4514.png?w=2280&ssl=1) to climb there)
 
