@@ -1,3 +1,16 @@
+- title: "CropHarvest: A global dataset for crop-type classification"
+  authors:
+    - Gabriel Tseng
+    - Ivan Zvonkov
+    - Catherine Nakalembe
+    - Hannah Kerner
+  year: 2021
+  journal: Neural Information Processing Systems (NeurIPS) datasets and benchmarks track
+  tags:
+    - tag: openreview
+      link: https://openreview.net/forum?id=JtjzUXPEaCu
+    - tag: code
+      link: https://github.com/nasaharvest/cropharvest
 - title: "Learning to predict crop type from heterogeneous sparse labels using meta-learning"
   authors:
     - Gabriel Tseng
