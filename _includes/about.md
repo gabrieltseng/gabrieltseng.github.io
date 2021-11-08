@@ -1,4 +1,4 @@
-I am a master's student at [McGill](https://www.mcgill.ca/) / [Mila](https://mila.quebec/), working under the supervision of Professor [David Rolnick](https://davidrolnick.com/) to investigate ways in which machine learning can help fight climate change. This includes working with [NASA Harvest](https://nasaharvest.com/), using remote sensing to estimate which crops are being grown where.
+I am a master's student at [McGill](https://www.mcgill.ca/) / [Mila](https://mila.quebec/), working under the supervision of Professor [David Rolnick](https://davidrolnick.com/) to investigate ways in which machine learning can help fight climate change. This includes working with [NASA Harvest](https://nasaharvest.org/), using remote sensing to estimate which crops are being grown where.
 
 I am interested in / have been lucky to contribute to:
 * **Technology for good**, such as to [better understand natural hazards](https://github.com/esowc/ml_drought), or to
