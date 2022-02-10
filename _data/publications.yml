@@ -10,6 +10,7 @@
       link: https://arxiv.org/abs/2202.02124
     - tag: code
       link: https://github.com/nasaharvest/timl
+  misc: Long Talk
 - title: "CropHarvest: A global dataset for crop-type classification"
   authors:
     - Gabriel Tseng
