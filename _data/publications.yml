@@ -1,3 +1,15 @@
+- title: "TIML: Task-Informed Meta-Learning for agriculture"
+  authors:
+    - Gabriel Tseng
+    - Hannah Kerner
+    - David Rolnick
+  year: 2022
+  journal: AAAI Conference on Artificial Intelligence, AI for Agriculture and Food Systems (AIAFS) workshop
+  tags:
+    - tag: arxiv
+      link: https://arxiv.org/abs/2202.02124
+    - tag: code
+      link: https://github.com/nasaharvest/timl
 - title: "CropHarvest: A global dataset for crop-type classification"
   authors:
     - Gabriel Tseng
