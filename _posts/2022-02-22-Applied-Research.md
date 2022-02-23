@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Getting started on applied Machine Learning Research"
+title:  "Getting started with applied Machine Learning Research"
 date:   2022-02-22 10:17:15 -0500
 ---
 
