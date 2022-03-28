@@ -2,30 +2,22 @@
 layout: main
 title: Home
 ---
-<div class="columns is-7 is-variable">
-  <div class="column is-two-thirds content">
-    <div class="columns is-7 is-variable is-vcentered">
-      <div class="column is-one-third content">
-        <figure class="image">
-          <img src="/assets/img/profile_cropped.png">
-        </figure>
-      </div>
-      <div class="column">
-        <h1>{{ site.title }}</h1>
-        {% capture description %}{% include description.md %}{% endcapture %}
-        {{ description | markdownify }}
-        <h2>Email</h2>
-        <p>{{ site.email }}</p>
-      </div>
+<div class="columns is-variable">
+  <div class="columns">
+    <div class="column is-one-quarter content" style="vertical-align: top">
+      <figure class="image">
+        <img src="/assets/img/profile.jpg">
+      </figure>
     </div>
-  </div>
-  <div class="column">
-    <div class="has-text-centered content">
+    <div class="column is-three-quarters content">
+      <h1>{{ site.title }}</h1>
+      {% capture description %}{% include description.md %}{% endcapture %}
+      {{ description | markdownify }}
+
       <h2>News</h2>
-    </div>
       {% assign news = site.news | sort: 'date' | reverse %}
       {% for entry in news limit:3 %}
-        <div class="has-text-centered content">
+        <div>
           <h4><a href="{{ entry.url }}">{{ entry.date | date_to_string }} - {{ entry.title }}</a></h4>
         </div>
         <div class="has-text-left content">
@@ -35,4 +27,3 @@ title: Home
     </div>
   </div>
 </div>
-
