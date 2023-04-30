@@ -24,7 +24,7 @@
   tags:
     - tag: openreview
       link: https://openreview.net/pdf?id=AR4SAOzcuz
-    - code:
+    - tag: code
       link: https://github.com/SmallRobotCompany/smallteacher
 - title: "TIML: Task-Informed Meta-Learning for agriculture"
   authors:
