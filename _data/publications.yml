@@ -1,3 +1,31 @@
+- title: "Lightweight, Pre-trained Transformers for Remote Sensing Timeseries"
+  authors:
+    - Gabriel Tseng
+    - Ivan Zvonkov
+    - Mirali Purohit
+    - David Rolnick
+    - Hannah Kerner
+  year: 2023
+  journal: arXiv:2304.14065
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2304.14065
+    - tag: code
+      link: https://github.com/nasaharvest/presto
+- title: "Semi-Supervised Object Detection for Agriculture"
+  authors:
+    - Gabriel Tseng
+    - Krisztina Sinkovics
+    - Tom Watsham
+    - David Rolnick
+    - Thomas C Walters
+  year: 2023
+  journal: AAAI Conference on Artificial Intelligence, AI for Agriculture and Food Systems (AIAFS) workshop
+  tags:
+    - tag: openreview
+      link: https://openreview.net/pdf?id=AR4SAOzcuz
+    - code:
+      link: https://github.com/SmallRobotCompany/smallteacher
 - title: "TIML: Task-Informed Meta-Learning for agriculture"
   authors:
     - Gabriel Tseng
