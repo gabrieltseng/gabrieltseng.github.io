@@ -1,17 +1,21 @@
 - title: "Lightweight, Pre-trained Transformers for Remote Sensing Timeseries"
   authors:
     - Gabriel Tseng
+    - Ruben Cartuyvels
     - Ivan Zvonkov
     - Mirali Purohit
     - David Rolnick
     - Hannah Kerner
   year: 2023
-  journal: arXiv:2304.14065
+  journal: Neural Information Processing Systems (NeurIPS), Workshop on Tackling climate change with machine learning
+  misc: Spotlight
   tags:
     - tag: arXiv
       link: https://arxiv.org/abs/2304.14065
     - tag: code
       link: https://github.com/nasaharvest/presto
+    - tag: workshop
+      link: https://www.climatechange.ai/papers/neurips2023/58
 - title: "Semi-Supervised Object Detection for Agriculture"
   authors:
     - Gabriel Tseng
