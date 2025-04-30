@@ -1,5 +1,5 @@
 ---
-date: 2023-4-27
+date: 2025-4-27
 title: Machine Learning for Remote Sensing Workshop @ ICLR 2025
 layout: page
 ---
