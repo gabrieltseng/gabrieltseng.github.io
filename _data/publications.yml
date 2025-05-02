@@ -1,3 +1,22 @@
+- title: "Galileo: Learning Global and Local Features in Pretrained Remote Sensing Models"
+  authors:
+    - Gabriel Tseng
+    - Anthony Fuller
+    - Marlena Reil
+    - Henry Herzog
+    - Patrick Beukema
+    - Favyen Bastani
+    - James R. Green
+    - Evan Shelhamer
+    - Hannah Kerner
+    - David Rolnick
+  year: 2025
+  journal: International Conference on Machine Learning (ICML)
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2502.09356
+    - tag: code
+      link: https://github.com/nasaharvest/galileo
 - title: "Lightweight, Pre-trained Transformers for Remote Sensing Timeseries"
   authors:
     - Gabriel Tseng
