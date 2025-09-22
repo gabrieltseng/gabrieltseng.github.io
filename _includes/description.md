@@ -1,4 +1,4 @@
-Hello! My name is Gabi. I am a PhD student at [McGill](https://www.mcgill.ca/) / [Mila](https://mila.quebec/), working under the supervision of Professor [David Rolnick](https://davidrolnick.com/) to investigate ways in which machine learning can help fight climate change. This includes working with Professor [Hannah Kerner](https://hannah-rae.github.io/) at [NASA Harvest](https://nasaharvest.org/) and with Ai2's [Earth System](https://allenai.org/earth-system) Team.
+Hello! My name is Gabi. I am a research scientist at Ai2 on the [Earth System Team](https://allenai.org/earth-system). I'm also finishing a PhD at McGill / Mila under the supervision of David Rolnick, investigating ways in which machine learning can help mitigate and adapt to climate change.
 
 Land use is one of the [most important environmental issues](https://www.monbiot.com/2022/08/19/unholy-cow/), and agriculture is the [main driver](https://ourworldindata.org/land-use) of land use. My research seeks to better understand the Earth's landcover using remote sensing data, with a focus on improving the machine learning algorithms used to make large scale agricultural landcover maps.
 
