@@ -1,6 +1,6 @@
 ---
-date: 2024-6-10
-title: Internship at the Allen Institute for AI
+date: 2025-10-13
+title: Research Scientist at Ai2
 layout: page
 ---
-I'm spending the summer working in Seattle at the Allen Institute for AI's [applied sciences team](https://allenai.org/#ast), under the mentorship of [Patrick Beukema](https://pbeukema.github.io/) and [Favyen Bastani](https://favyen.com/).
+I'm joining Ai2's [Earth System team](https://allenai.org/earth-system) as a Research Scientist!
