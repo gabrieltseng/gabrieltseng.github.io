@@ -1,5 +1,5 @@
 ---
-date: 2025-10-04
+date: 2025-11-04
 title: OlmoEarth!
 layout: page
 ---
