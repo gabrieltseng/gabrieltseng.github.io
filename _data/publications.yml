@@ -1,3 +1,73 @@
+- title: OlmoEarth - Stable Latent Image Modeling for Multimodal Earth Observation
+  authors:
+  - Henry Herzog
+  - Favyen Bastani
+  - Yawen Zhang
+  - Gabriel Tseng
+  - Joseph Redmon
+  - Hadrien Sablon
+  - Ryan Park
+  - Jacob Morrison
+  - Alexandra Buraczynski
+  - Karen Farley
+  - Joshua Hansen
+  - Andrew Howe
+  - Patrick Alan Johnson
+  - Mark Otterlee
+  - Ted Schmitt
+  - Hunter Pitelka
+  - Stephen Daspit
+  - Rachel Ratner
+  - Christopher Wilhelm
+  - Sebastian Wood
+  - Mike Jacobi
+  - Hannah Kerner
+  - Evan Shelhamer
+  - Ali Farhadi
+  - Ranjay Krishna
+  - Patrick Beukema
+  year: 2025
+  journal: arXiv preprint
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2511.13655
+    - tag: code
+      link: https://github.com/allenai/olmoearth_pretrain
+- title: Deploying Geospatial Foundation Models in the Real World: Lessons from WorldCereal
+  authors:
+  - Christina Butsko
+  - Kristof Van Tricht
+  - Gabriel Tseng
+  - Giorgia Milli
+  - David Rolnick
+  - Ruben Cartuyvels
+  - Inbal Becker Reshef
+  - Zoltan Szantoi
+  - Hannah Kerner
+  year: 2025
+  journal: Terrabytes Workshop @ ICML
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2508.00858
+    - tag: code
+      link: https://github.com/WorldCereal/prometheo
+- title: High-Resolution Live Fuel Moisture Content (LFMC) Maps for Wildfire Risk from Multimodal Earth Observation Data
+  authors:
+  - Patrick Alan Johnson
+  - Gabriel Tseng
+  - Yawen Zhang
+  - Heather Heward
+  - Virginia Sjahli
+  - Favyen Bastani
+  - Joseph Redmon
+  - Patrick Beukema
+  year: 2025
+  journal: Terrabytes Workshop @ ICML
+  tags:
+    - tag: arXiv
+      link: https://arxiv.org/abs/2506.20132v1
+    - tag: code
+      link: https://github.com/allenai/lfmc
 - title: "Galileo: Learning Global and Local Features in Pretrained Remote Sensing Models"
   authors:
     - Gabriel Tseng
