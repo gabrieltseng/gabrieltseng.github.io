@@ -33,7 +33,7 @@
       link: https://arxiv.org/abs/2511.13655
     - tag: code
       link: https://github.com/allenai/olmoearth_pretrain
-- title: Deploying Geospatial Foundation Models in the Real World: Lessons from WorldCereal
+- title: Deploying Geospatial Foundation Models in the Real World - Lessons from WorldCereal
   authors:
   - Christina Butsko
   - Kristof Van Tricht
