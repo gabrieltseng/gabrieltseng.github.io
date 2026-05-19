@@ -15,6 +15,12 @@ source "https://rubygems.org"
 # gem "jekyll", "~> 3.8.5"
 gem "github-pages", group: :jekyll_plugins
 
+# Standard libraries removed from default gems in Ruby 3.4+
+gem "csv"
+gem "base64"
+gem "bigdecimal"
+gem "logger"
+
 # Plugins
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"

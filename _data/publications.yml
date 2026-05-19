@@ -28,6 +28,7 @@
   - Patrick Beukema
   year: 2025
   journal: arXiv preprint
+  selected: true
   tags:
     - tag: arXiv
       link: https://arxiv.org/abs/2511.13655
@@ -46,6 +47,7 @@
   - Hannah Kerner
   year: 2025
   journal: Terrabytes Workshop @ ICML
+  selected: true
   tags:
     - tag: arXiv
       link: https://arxiv.org/abs/2508.00858
@@ -82,6 +84,7 @@
     - David Rolnick
   year: 2025
   journal: International Conference on Machine Learning (ICML)
+  selected: true
   tags:
     - tag: arXiv
       link: https://arxiv.org/abs/2502.09356
@@ -98,6 +101,7 @@
   year: 2023
   journal: Neural Information Processing Systems (NeurIPS), Workshop on Tackling climate change with machine learning
   misc: Spotlight
+  selected: true
   tags:
     - tag: arXiv
       link: https://arxiv.org/abs/2304.14065
@@ -140,6 +144,7 @@
     - Hannah Kerner
   year: 2021
   journal: Neural Information Processing Systems (NeurIPS) datasets and benchmarks track
+  selected: true
   tags:
     - tag: openreview
       link: https://openreview.net/forum?id=JtjzUXPEaCu
