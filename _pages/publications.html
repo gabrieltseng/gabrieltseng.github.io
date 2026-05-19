@@ -3,7 +3,11 @@ layout: page
 title: Publications
 permalink: /publications
 ---
-{% assign publications = site.data.publications | sort: 'year' | reverse %}
-{% for item in site.data.publications %}
+<p>Selected publications. See <a href="https://scholar.google.com/citations?user=to3X9roAAAAJ&hl=en">Google Scholar</a> for the full list.</p>
+
+<ol class="publication-list">
+{% assign selected = site.data.publications | where: "selected", true %}
+{% for item in selected %}
   {% include publication-item.html %}
 {% endfor %}
+</ol>

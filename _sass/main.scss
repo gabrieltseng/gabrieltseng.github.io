@@ -1,3 +1,42 @@
 .current {
   color: green;
 }
+
+.publication-list {
+  list-style-position: outside;
+  padding-left: 1.5rem;
+}
+
+.publication-item {
+  margin-bottom: 1.25rem;
+
+  .publication-title {
+    font-weight: 600;
+  }
+
+  .publication-authors {
+    font-size: 0.95em;
+  }
+
+  .publication-venue {
+    font-size: 0.9em;
+    color: #555;
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+.news-item {
+  margin-bottom: 0.85rem;
+
+  .news-date {
+    font-weight: 600;
+    margin-right: 0.25rem;
+  }
+
+  p {
+    display: inline;
+  }
+}

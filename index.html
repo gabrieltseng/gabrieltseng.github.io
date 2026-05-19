@@ -16,13 +16,8 @@ title: Home
 
       <h2>News</h2>
       {% assign news = site.news | sort: 'date' | reverse %}
-      {% for entry in news limit:3 %}
-        <div>
-          <h4><a href="{{ entry.url }}">{{ entry.date | date_to_string }} - {{ entry.title }}</a></h4>
-        </div>
-        <div class="has-text-left content">
-          <p>{{ entry.excerpt | markdownify }}</p>
-        </div>
+      {% for item in news limit:10 %}
+        {% include news-item.html %}
       {% endfor %}
     </div>
   </div>
