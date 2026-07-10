@@ -2,7 +2,7 @@ Hello! My name is Gabi. I am a Research Scientist at Ai2 on the [OlmoEarth Team]
 
 I completed a PhD at McGill / Mila under the supervision of Professor [David Rolnick](https://davidrolnick.com/), investigating ways in which machine learning can help mitigate and adapt to climate change. This included working with Professor [Hannah Kerner](https://hannah-rae.github.io/) at [NASA Harvest](https://nasaharvest.org/).
 
-Land use is one of the [most important environmental issues](https://www.monbiot.com/2022/08/19/unholy-cow/), and agriculture is the [main driver](https://ourworldindata.org/land-use) of land use. My research seeks to better understand the Earth's landcover using remote sensing data, with a focus on improving the machine learning algorithms used to make large scale agricultural landcover maps.
+Land use is one of the [most important environmental issues](https://www.monbiot.com/2022/08/19/unholy-cow/), and agriculture is the [main driver](https://ourworldindata.org/land-use) of land use. My research seeks to better understand the Earth's landcover using remote sensing data, with a focus on [improving the machine learning algorithms used to make large scale agricultural landcover maps](https://www.nasaharvest.org/news/presto-a-smarter-way-to-use-satellite-data-to-help-farmers).
 
 In addition to machine learning for remote sensing and agriculture, I have been lucky to contribute to:
 * **Technology for good**, such as for [sustainable and regenerative farming](https://www.agri-tech-e.co.uk/small-robot-co-brings-its-per-plant-farming-service-to-50-farms/), or to [increase energy access](https://okrasolar.com/)
